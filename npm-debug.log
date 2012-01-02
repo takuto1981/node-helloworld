@@ -1,0 +1,37 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/home/ec2-user/.nvm/v0.6.6/bin/npm', 'start' ]
+info using npm@1.1.0-beta-4
+info using node@v0.6.6
+verbose config file /home/ec2-user/.npmrc
+verbose config file /home/ec2-user/.nvm/v0.6.6/etc/npmrc
+verbose config file /home/ec2-user/.nvm/v0.6.6/lib/node_modules/npm/npmrc
+verbose caching /home/ec2-user/helloworld/package.json
+verbose loadDefaults application-name@0.0.1
+verbose run-script [ 'prestart', 'start', 'poststart' ]
+info prestart application-name@0.0.1
+info start application-name@0.0.1
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "node server.js"
+silly spawning [ 'sh', [ '-c', 'node server.js' ], '/home/ec2-user/helloworld' ]
+info application-name@0.0.1 Failed to exec start script
+ERR! application-name@0.0.1 start: `node server.js`
+ERR! `sh "-c" "node server.js"` failed with 1
+ERR! 
+ERR! Failed at the application-name@0.0.1 start script.
+ERR! This is most likely a problem with the application-name package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node server.js
+ERR! You can get their info via:
+ERR!     npm owner ls application-name
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Linux 2.6.35.14-97.44.amzn1.x86_64
+ERR! command "node" "/home/ec2-user/.nvm/v0.6.6/bin/npm" "start"
+ERR! cwd /home/ec2-user/helloworld
+ERR! node -v v0.6.6
+ERR! npm -v 1.1.0-beta-4
+ERR! code ELIFECYCLE
+ERR! message application-name@0.0.1 start: `node server.js`
+ERR! message `sh "-c" "node server.js"` failed with 1
+verbose exit [ 1, true ]
